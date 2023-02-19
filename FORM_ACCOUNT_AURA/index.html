@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>       
+   <meta charset="UTF-8">   
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">      
+   <meta name="description" content="Laboratorio Crear Cuenta">
+   <meta name="author" content="Aura Triviño">   
+   <title>Aura Triviño | Crear Cuenta</title>
+   <link rel="stylesheet" href="./style.css">         
+</head>
+<body>
+<main>    
+    <form action="#" class="formulario" id="formulario">
+        <h1>Crear Cuenta</h1>             
+       
+        <div class="formulario__grupo" id="grupo__nombre">
+            <label class="formulario__label">Nombre </label>
+            <div class="formulario__grupo-input">
+                <input type="text" class="formulario__input" name="nombre" id="nombre">
+                <span class="formulario__validacion-estado icon"></span>                
+            </div>
+            <p class="formulario__input-error">Rellene este campo</p>
+        </div>
+         
+        <div class="formulario__grupo" id="grupo__correo">
+            <label class="formulario__label">Correo Electonico</label>
+            <div class="formulario__grupo-input">
+                <input type="email" class="formulario__input" name="correo" id="correo">
+                <span class="icon"></span>                
+            </div>
+            <p class="formulario__input-error">Rellene este campo</p>
+            
+        </div>
+        
+        <div class="formulario__grupo" id="grupo__password">
+            <label class="formulario__label">Contraseña</label>
+            <div class="formulario__grupo-input">
+                <input type="password" class="formulario__input" name="password" id="password">
+                <span class="icon"></span>                
+            </div>
+            <p class="formulario__input-error">Rellene este campo</p>
+            
+        </div>
+        
+        <div class="formulario__grupo" id="grupo__password2">
+            <label class="formulario__label">Confirmar Contraseña</label>
+            <div class="formulario__grupo-input">
+                <input type="password" class="formulario__input" name="password2" id="password2">
+                <span class="icon"></span>              
+            </div>
+            <p class="formulario__input-error">Las contraseñas no coinciden</p>
+            
+        </div>        
+           
+        <!-- BTN  ENVIAR -->
+        <div class="formulario__grupo formulario__grupo-btn-enviar">
+            <input class="formulario__btn" type="submit" value="Enviar">
+        </div>
+    </form>
+</main>
+
+    <script src="./index.js"></script>
+</body>
+</html>
